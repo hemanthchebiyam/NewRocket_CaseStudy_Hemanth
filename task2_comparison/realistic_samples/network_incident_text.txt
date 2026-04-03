@@ -1,0 +1,29 @@
+Network Outage Incident Report
+
+Incident Number: INC0042891
+Date: March 15, 2024
+Reported By: IT Operations Center
+Priority: 1 - Critical
+Category: Network
+
+Summary:
+On March 15, 2024, at 09:30 AM, the primary network router in Building A experienced a critical failure. The outage affected approximately 150 users across three departments: Finance, Operations, and HR. All internet and internal network access was lost for the affected users.
+
+Response:
+The IT Operations team was notified immediately via the automated monitoring alert at 09:32 AM. A senior network engineer was dispatched within 15 minutes and arrived on-site at 09:47 AM. Remote diagnostics confirmed a hardware failure in the core switch (model: Cisco Catalyst 9300).
+
+Root Cause:
+The root cause was identified as a hardware failure in the core switch due to a faulty power supply unit. The unit failed to switch over to the redundant power supply, which had not been tested in the previous maintenance cycle.
+
+Resolution:
+A replacement switch unit was sourced from the on-site spares inventory and installed by 11:30 AM. Network connectivity was fully restored by 11:45 AM. Total downtime: 2 hours and 15 minutes.
+
+SLA Status: Met (SLA requires restoration within 4 hours for Priority 1 incidents).
+
+Follow-up Actions:
+1. Schedule quarterly testing of all redundant power supply units.
+2. Update the CMDB with the replacement hardware details.
+3. Review monitoring thresholds to detect power supply degradation earlier.
+
+Resolved By: John Smith (Network Engineering Team)
+Resolution Time: 2 hours 15 minutes

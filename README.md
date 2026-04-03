@@ -39,3 +39,4 @@ Compare cross-format documents (Text vs. Image) using OCR and advanced NLP simil
 ## Code Notebooks
 
 - [task1_incident_clustering.ipynb](task1_incident_clustering.ipynb)
+- [task2_document_comparison.ipynb](task2_document_comparison.ipynb)

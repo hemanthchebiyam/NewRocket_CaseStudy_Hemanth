@@ -1,0 +1,16 @@
+KB00123: Network Connectivity Guide
+
+Symptoms:
+Users reporting intermittent connection drops, slow DNS resolution, or "No Internet" status icons in Building A and Building B.
+
+Resolution Steps:
+1. Verify Ethernet Cable Connection: Ensure the cable is securely plugged into both the wall jack and the computer.
+2. Check Wi-Fi Status: Confirm that the user is connected to the 'Enterprise-Secure' SSID and not the guest network.
+3. Restart Network Adapter: Use the Network Troubleshooter in Windows or System Settings on macOS to reset the adapter.
+4. Flush DNS Cache: Run 'ipconfig /flushdns' in the command prompt.
+5. Report to Help Desk: If the issue persists, provide your IP address and MAC address to the IT Support team.
+
+Related Articles:
+- KB00456: VPN Troubleshooting
+- KB00789: Wireless Guest Access Policy
+- KB01011: Core Switch Maintenance Schedule

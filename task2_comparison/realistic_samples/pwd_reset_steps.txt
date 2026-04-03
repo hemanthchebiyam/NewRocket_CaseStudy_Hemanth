@@ -1,0 +1,14 @@
+Password Reset Automation Workflow
+
+Workflow Summary:
+This workflow automates the password reset process when a user requests it via the Virtual Agent or Service Portal. It ensures identity verification before resetting credentials in Active Directory.
+
+Workflow Steps:
+1. Trigger: Virtual Agent Request - User selects "Reset Password" in the chat interface.
+2. Step: Validate User Identity - Multi-Factor Authentication (MFA) is sent via SMS or Authenticator App.
+3. Decision: MFA Success?
+   - If Yes: Proceed to Reset.
+   - If No: Escalate to Service Desk.
+4. Step: Reset AD Password - The Flow Designer 'AD Spoke' updates the user's password to a temporary one.
+5. Step: Notify User via Email - Send the temporary password and instructions to the user's secondary email address.
+6. End: Close the Request and log completion.
